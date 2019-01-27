@@ -51,12 +51,10 @@ kramdown:
 
 # 评论系统
 # Disqus（https://disqus.com/）
-# disqus_
 disqus_username: miracleyanyu
 
 
 # 统计
-
 # Analytics settings
 # Google Analytics
 ga_track_id: 'UA-133296167-1'            # Format: UA-xxxxxx-xx
