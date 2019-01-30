@@ -5,7 +5,7 @@ subtitle:   总结一下所学的内容和作业
 date:       2019-01-30
 author:     Yu
 header-img: 
-catalog: 	 true
+catalog: true
 tags:
     - CS 61B
     - Java
