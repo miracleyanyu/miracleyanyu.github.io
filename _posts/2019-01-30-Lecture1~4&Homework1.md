@@ -1,11 +1,11 @@
 ---
 layout:     post
 title:      CS 61B: Lecture 1~4 & Homework 1
-subtitle:   总结一下这几天学习的知识及作业！
+subtitle:   总结一下所学的内容和作业
 date:       2019-01-30
 author:     Yu
 header-img: 
-catalog: true
+catalog: 	 true
 tags:
     - CS 61B
     - Java
