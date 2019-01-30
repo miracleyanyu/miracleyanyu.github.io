@@ -161,6 +161,7 @@ Lifetimes of variables:
     		System.out.println(firstLine);
     	}
     }
+    
 结果如下：
 ![Problem 1](https://ws1.sinaimg.cn/large/006tNc79ly1fzokrghai5j31400p0tfk.jpg)
 
@@ -181,6 +182,7 @@ Lifetimes of variables:
 			System.out.println(outputLine.deleteCharAt(1));
 		}
 	}
+	
 结果如下：
 ![Problem 2](https://ws4.sinaimg.cn/large/006tNc79ly1fzokyr4zbkj31400p0afd.jpg)
 
