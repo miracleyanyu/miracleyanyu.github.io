@@ -11,11 +11,11 @@ tags:
     - Java
 ---
 
-#CS 61B: Lecture 1~4 & Homework 1
+# CS 61B: Lecture 1~4 & Homework 1
 
 一年前Java没好好学，现在要从头开始全部补回来，诶QAQ。
 
-##Lecture 1&2
+## Lecture 1&2
 主要讲了Objects、Class以及String相关的知识。
 
 > Objects: Repository of Data
@@ -59,7 +59,7 @@ ReadLine method is defined on BufferReader objects.
 	BufferedReader keyboard = new BufferedReader(new InputStreamReader(System.in));
 	System.out.println(keyboard.readline());
 
-##Lecture 3
+## Lecture 3
 创建了Human Class。
 
 	Class Human {
@@ -119,11 +119,11 @@ Lifetimes of variables:
 > * Instances variable lasts as long as object exists.
 > * Class variable(static field) lasts as long as program runs.
 
-##Lecture 4
+## Lecture 4
 介绍了一些Primitive Types和If、Switch语句。比较简单就不写啦。
 
-##Homework 1
-###Problem 1
+## Homework 1
+### Problem 1
 输入网址名，倒序返回网站的前四行代码。
 
 首先使用BufferedReader读取键盘输入的网站名，然后创建一个URL，在使用BufferedReader读取网站的代码。输出的话创建五个String，分别存放前五次读取到的内容，然后反着Print就好啦～
@@ -165,7 +165,7 @@ Lifetimes of variables:
 结果如下：
 ![Problem 1](https://ws1.sinaimg.cn/large/006tNc79ly1fzokrghai5j31400p0tfk.jpg)
 
-###Problem 2
+### Problem 2
 输入一个字符串，删掉第二个字符然后输出。
 
 首先也是使用BufferedReader读取输入的字符串放到String里，然后通过new StringBuffer(inputLine)转为StringBuffer，再使用deleteCharAt()方法就好啦。
