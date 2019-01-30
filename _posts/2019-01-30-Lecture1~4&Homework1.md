@@ -63,7 +63,7 @@ ReadLine method is defined on BufferReader objects.
 创建了Human Class。
 
 	Class Human {
-		public int age; 		//primitive
+		public int age; 	    //primitive
 		public String name;	    //references
 		
 		public void Introduce() {
@@ -141,7 +141,7 @@ Lifetimes of variables:
     		inputLine = keyboard.readLine();
 
     		URL point3acres = new URL("https://www."+inputLine+".com");
-    		BufferedReader in = new BufferedReader(new 			InputStreamReader(point3acres.openStream()));
+    		BufferedReader in = new BufferedReader(new InputStreamReader(point3acres.openStream()));
 
     		String firstLine = new String();
     		firstLine = in.readLine();
