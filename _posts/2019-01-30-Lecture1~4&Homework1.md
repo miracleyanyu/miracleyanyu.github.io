@@ -153,8 +153,8 @@ Lifetimes of variables:
     		forthLine = in.readLine();
     		String fifthLine = new String();
     		fifthLine = in.readLine();
-    
-   	 	System.out.println(fifthLine);
+    		
+		System.out.println(fifthLine);
     		System.out.println(forthLine);
     		System.out.println(thirdLine);
     		System.out.println(secondLine);
